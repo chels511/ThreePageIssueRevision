@@ -101,6 +101,7 @@ header a:hover {
       padding: 10px;
       margin: 0;
       font-weight: bold;
+      font-family: 'Alfa Slab One', cursive;
     }
 .pic .thumbnail {
       width: 275px;
