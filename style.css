@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    opacity: 1;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    color: #bd8df0;
+    background-color: black;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #57018c;
+}
+.showtime{
+  background-image:url('autoimmuneopen.jpg');
+  background-color: clear;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  font-family: 'Alfa Slab One', cursive;
+  color: #bd8df0;
+  gap: 10px;
+}
+.showtime p{
+    color: #f7e474;
+.showtime p
+}
+}
+.main {
+      padding: 20px;
+    }
+.footer {
+      background-color: #7011ed;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+.pic {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+      background-image: url("art3auto.jpg");
+
+    }
+.pic .thumbnail {
+      position: relative;
+      width: 250px;
+      height: 140px;
+      margin: 10px;
+      overflow: hidden;
+      transition: transform 0.3s;
+      background-color: #333;
+    }
+.pic .thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+.pic .thumbnail:hover {
+      transform: scale(1.1);
+    }
+.pic .title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      margin: 0;
+      font-weight: bold;
+    }
+.pic .thumbnail {
+      width: 275px;
+      height: 155px
+    }
+.pic .title {
+      font-size: 14px;
+      padding: 8px;
+    }
+.row {
+  display: flex;
+  background-color: black;
+
+}
+.column {
+  flex: 33.3%;
+  padding: 5px;
+}
+
+
+.mainContainer {
+  font-size: 24pt;
+  padding-left: 400px;
+  padding-right: 100px;
+  margin: 0px;
+}
+
+
+
+.menu {
+  background-color:#7011ed ;
+  padding: 15px;
+  width: 250px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  height: 100%;
+  font-size: 24pt;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+
+
+a, a:visited, a:active {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #f7f5f5;
+}
+
+a:active {
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+}
+.navLink {
+ display: flex;
+ margin: 25px;
+
+}
+.survivor{
+    color:#bd8df0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: black;
+}
+.survivors{
+    color:#cfa5a3;
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: black;
+    }
+
+.callOutHeader {
+  background-image: url('art2auto.jpg');
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 400px;
+  margin-bottom: 100px;
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 48pt;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Alfa Slab One', cursive;
+  color: #faa9a5;
+  opacity: 1;
+}
+
+.content {
+  font-weight: lighter;
+}
+
+.subTitle {
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+  border-bottom: 5px solid #A6866A;
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+}
+.menu {
+  background-color:#7011ed ;
+  padding: 15px;
+  width: 250px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  height: 100%;
+  font-size: 24pt;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.twoColumnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+}
+
+.oneColumn {
+  flex: 0 0 calc(49% - 10px);
+  margin: 0 5px;
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+}
+
+.smallContainer {
+  background-color: #F2F1DF;
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color:white;
+}
+
+.thumbContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px;
+  flex: 33.3%;
+  color: white;
+  }
+
+.thumb {
+  display: inline-block;
+  width: 32%;
+  aspect-ratio: 1/1;
+  padding: 0px;
+  margin: 0px;
+  object-fit: cover;
+}
+
+.id {
+  color: lightsalmon;
+  font-family: 'Alfa Slab One', cursive;
+}
+.middle{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: 'Alfa Slab One', cursive;
+  color:white;  
+}
+.mid{
+  font-family: 'Alfa Slab One', cursive;
+  color:#bd8df0;  
+}
